@@ -10,6 +10,11 @@ export default defineConfig({
   },
   build: {
     outDir: '../dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: 'site-source/index-vite.html'
+      }
+    }
   }
 });
