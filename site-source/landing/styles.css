@@ -1705,7 +1705,7 @@ body::before {
   margin-bottom: 4px;
 }
 footer {
-  padding: 36px 0 56px;
+  padding: 20px 0;
   border-top: 1px solid var(--line);
 }
 footer .container {

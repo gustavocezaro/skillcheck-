@@ -389,7 +389,7 @@ const I18N = {
     },
     footer: {
       tag: "Workforce intelligence analysis platform",
-      legal: "© 2026 SkillCheck · Tevon",
+      legal: "© 2026 SkillCheck",
       links: { privacy: "Privacidade", security: "Segurança", contact: "Contato" },
     },
   },
@@ -609,7 +609,7 @@ const I18N = {
       address: { title: "HQ",  lines: ["Av. Brigadeiro Faria Lima, 0000", "Itaim Bibi · São Paulo · SP", "00000-000"] },
       hours:   { title: "Hours", lines: ["Mon – Fri · 09:00 – 19:00", "Reply within 1 business day"] },
     },
-    footer: { tag: "Workforce intelligence platform", legal: "© 2026 SkillTrack · Tevon", links: { privacy: "Privacy", security: "Security", contact: "Contact" } },
+    footer: { tag: "Workforce intelligence platform", legal: "© 2026 SkillTrack", links: { privacy: "Privacy", security: "Security", contact: "Contact" } },
   },
 };
 

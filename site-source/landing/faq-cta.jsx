@@ -80,20 +80,14 @@ function Footer({ t }) {
         <div className="brand" style={{ fontFamily: "var(--font-display)", fontSize: 22, letterSpacing: "-0.015em" }}>
           <BrandMark />
           SkillCheck
-          <span style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--ink-mute)", letterSpacing: ".08em", textTransform: "uppercase", marginLeft: 16 }}>
-            {t.footer.tag}
-          </span>
-        </div>
-        <div className="legal">
-          {t.footer.legal}
-          <a href="#">{t.footer.links.privacy}</a>
-          <a href="#">{t.footer.links.security}</a>
-          <a href="#">{t.footer.links.contact}</a>
         </div>
         <TevonBranding variant="horizontal" />
+        <div className="legal">
+          {t.footer.legal}
+          <a href="#contact">{t.footer.links.contact}</a>
+        </div>
       </div>
     </footer>);
-
 }
 
 Object.assign(window, { FAQ, CTA, Footer });
