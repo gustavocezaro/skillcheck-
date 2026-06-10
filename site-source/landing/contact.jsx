@@ -52,7 +52,7 @@ Aqui estão meus dados de contato:
 - O que quero avaliar: ${form.message || 'Não informado'}`;
 
     const encodedText = encodeURIComponent(formattedText);
-    const whatsappUrl = `https://api.whatsapp.com/send/?phone=5548996633142&text=${encodedText}&type=phone_number&app_absent=0`;
+    const whatsappUrl = `https://api.whatsapp.com/send/?phone=5511941911520&text=${encodedText}&type=phone_number&app_absent=0`;
 
     setTimeout(() => {
       window.open(whatsappUrl, "_blank");
@@ -78,7 +78,7 @@ Aqui estão meus dados de contato:
           {/* FORM CARD */}
           <div className="contact-card form-card">
             <div className="cc-head">
-              <h3>{c.formTitle}</h3>
+              {c.formTitle && <h3>{c.formTitle}</h3>}
               <p>{c.formSub}</p>
             </div>
 
@@ -169,7 +169,7 @@ Aqui estão meus dados de contato:
           <div className="contact-card info-card">
             <div className="cc-head">
               <span className="eyebrow no-rule" style={{ fontSize: 11 }}>{c.sideTitle}</span>
-              <p style={{ marginTop: 14 }}>{c.sideSub}</p>
+              {c.sideSub && <p style={{ marginTop: 14 }}>{c.sideSub}</p>}
             </div>
 
             <ul className="channel-list">
@@ -180,8 +180,6 @@ Aqui estão meus dados de contato:
                 </li>
               ))}
             </ul>
-
-
           </div>
         </Reveal>
       </div>

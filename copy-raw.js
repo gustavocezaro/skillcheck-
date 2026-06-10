@@ -42,4 +42,28 @@ try {
   console.error('Failed to copy landing files:', err.message);
 }
 
+// 3. Copy the assets directory (including tevonlogo.png) to dist/landing/assets
+try {
+  const srcAssets = './site-source/landing/assets';
+  const destAssets = './dist/landing/assets';
+  if (fs.existsSync(srcAssets)) {
+    if (!fs.existsSync(destAssets)) {
+      fs.mkdirSync(destAssets, { recursive: true });
+    }
+    const files = fs.readdirSync(srcAssets);
+    let count = 0;
+    for (const file of files) {
+      const srcFile = path.join(srcAssets, file);
+      const destFile = path.join(destAssets, file);
+      if (fs.lstatSync(srcFile).isDirectory()) continue;
+      fs.copyFileSync(srcFile, destFile);
+      count++;
+    }
+    console.log(`- Copied ${count} asset files to dist/landing/assets/`);
+  }
+} catch (err) {
+  console.error('Failed to copy assets:', err.message);
+}
+
 console.log('Static assets copy completed successfully.');
+

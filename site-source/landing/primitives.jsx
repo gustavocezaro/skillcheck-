@@ -102,4 +102,21 @@ function BrandMark() {
   );
 }
 
-Object.assign(window, { Reveal, Tilt, useCountUp, usePalette, BrandMark });
+function TevonBranding({ variant = "vertical" }) {
+  const logoUrl = "/landing/assets/tevonlogo.png";
+
+  return (
+    <a
+      href="https://tevon.com.br"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`tevon-branding ${variant}`}
+    >
+      <span>Empowered by</span>
+      <img src={logoUrl} alt="TEVON" />
+    </a>
+  );
+}
+
+Object.assign(window, { Reveal, Tilt, useCountUp, usePalette, BrandMark, TevonBranding });
+

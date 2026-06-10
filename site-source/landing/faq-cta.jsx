@@ -90,6 +90,7 @@ function Footer({ t }) {
           <a href="#">{t.footer.links.security}</a>
           <a href="#">{t.footer.links.contact}</a>
         </div>
+        <TevonBranding variant="horizontal" />
       </div>
     </footer>);
 

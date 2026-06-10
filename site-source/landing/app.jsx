@@ -51,7 +51,7 @@ function App() {
       <Footer t={i18n} />
 
       <a
-        href="https://api.whatsapp.com/send/?phone=5548996633142&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+o+Skillcheck.&type=phone_number&app_absent=0"
+        href="https://api.whatsapp.com/send/?phone=5511941911520&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+o+Skillcheck.&type=phone_number&app_absent=0"
         className="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"

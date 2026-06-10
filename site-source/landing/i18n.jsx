@@ -344,7 +344,7 @@ const I18N = {
       eyebrow: "Vamos conversar",
       h: "Desenhe o primeiro cenário com a gente.",
       sub: "Em até 1 dia útil retornamos com uma proposta de piloto sob medida para o seu setor.",
-      formTitle: "Preços personalizados, conversa próxima",
+      formTitle: "",
       formSub: "Conte um pouco sobre você — a gente prepara uma demo focada na sua realidade.",
       fields: {
         name: { label: "Nome completo", placeholder: "Como podemos te chamar?" },
@@ -373,7 +373,7 @@ const I18N = {
         again: "Enviar outro contato",
       },
       sideTitle: "Ou fale direto com a gente",
-      sideSub: "Equipe comercial Tevon Labs — horário comercial (GMT-3).",
+      sideSub: "",
       channels: [
         { k: "E-mail",   v: "comercial@tevon.com.br", href: "mailto:comercial@tevon.com.br" },
         { k: "Telefone", v: "(11) 94191-1520",     href: "tel:+5511941911520" },
@@ -389,7 +389,7 @@ const I18N = {
     },
     footer: {
       tag: "Workforce intelligence analysis platform",
-      legal: "© 2026 SkillCheck · Tevon Labs",
+      legal: "© 2026 SkillCheck · Tevon",
       links: { privacy: "Privacidade", security: "Segurança", contact: "Contato" },
     },
   },
@@ -586,7 +586,7 @@ const I18N = {
       eyebrow: "Let's talk",
       h: "Design the first scenario with us.",
       sub: "Within 1 business day we'll come back with a pilot proposal tailored to your sector.",
-      formTitle: "Custom pricing, close conversation",
+      formTitle: "",
       formSub: "Tell us about you — we'll prep a demo focused on your reality.",
       fields: {
         name: { label: "Full name", placeholder: "What should we call you?" },
@@ -601,7 +601,7 @@ const I18N = {
       submitting: "Sending...",
       success: { title: "We got your message.", body: "Within 1 business day a specialist will reach out via the email provided.", again: "Send another message" },
       sideTitle: "Or talk to us directly",
-      sideSub: "Tevon Labs sales team — business hours (GMT-3).",
+      sideSub: "",
       channels: [
         { k: "Email", v: "comercial@tevon.com.br", href: "mailto:comercial@tevon.com.br" },
         { k: "Phone", v: "(11) 94191-1520", href: "tel:+5511941911520" },
@@ -609,7 +609,7 @@ const I18N = {
       address: { title: "HQ",  lines: ["Av. Brigadeiro Faria Lima, 0000", "Itaim Bibi · São Paulo · SP", "00000-000"] },
       hours:   { title: "Hours", lines: ["Mon – Fri · 09:00 – 19:00", "Reply within 1 business day"] },
     },
-    footer: { tag: "Workforce intelligence platform", legal: "© 2026 SkillTrack · Tevon Labs", links: { privacy: "Privacy", security: "Security", contact: "Contact" } },
+    footer: { tag: "Workforce intelligence platform", legal: "© 2026 SkillTrack · Tevon", links: { privacy: "Privacy", security: "Security", contact: "Contact" } },
   },
 };
 

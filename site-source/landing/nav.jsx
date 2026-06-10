@@ -30,6 +30,9 @@ function Nav({ t, lang, setLang }) {
               <button className={lang === "pt" ? "on" : ""} onClick={() => setLang("pt")}>PT</button>
               <button className={lang === "en" ? "on" : ""} onClick={() => setLang("en")}>EN</button>
             </div>
+            <a className="btn btn-ghost" href="#contact">
+              {lang === "pt" ? "Fale conosco" : "Contact us"}
+            </a>
             <a className="btn btn-primary" href="https://hub.tevon.com.br" target="_blank" rel="noopener noreferrer">
               {lang === "pt" ? "Contratar" : "Subscribe"}
               <span className="arr">→</span>

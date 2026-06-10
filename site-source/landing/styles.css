@@ -1512,6 +1512,7 @@ body::before {
   gap: 26px;
   position: relative;
   overflow: hidden;
+  align-self: flex-start;
 }
 .contact-card.info-card::before {
   content: "";
@@ -2217,3 +2218,40 @@ footer .legal a:hover { border-color: var(--ink-mute); }
   height: 32px;
   display: block;
 }
+
+/* ====== Tevon Branding ====== */
+.tevon-branding {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.tevon-branding:hover {
+  opacity: 0.8;
+}
+.tevon-branding.horizontal {
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 6px;
+}
+.tevon-branding.vertical {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.tevon-branding span {
+  font-size: 12px;
+  color: var(--ink-mute);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.tevon-branding img {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
