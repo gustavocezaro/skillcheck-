@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <style>
+    circle.bg { stroke: #0a1428; }
+    path.wave { stroke: #2f5cff; }
+    circle.center { fill: #0a1428; }
+    @media (prefers-color-scheme: dark) {
+      circle.bg { stroke: #ffffff; }
+      circle.center { fill: #ffffff; }
+    }
+  </style>
+  <circle class="bg" cx="12" cy="12" r="10" stroke-width="1.4" />
+  <path class="wave" d="M5 14c2.5 0 2.5-4 5-4s2.5 4 5 4 2.5-4 5-4" stroke-width="1.6" stroke-linecap="round" fill="none" />
+  <circle class="center" cx="12" cy="12" r="1.6" />
+</svg>

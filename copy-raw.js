@@ -14,8 +14,10 @@ try {
   }
   fs.copyFileSync('./site-source/index.html', './dist/index.html');
   console.log('- Copied index.html to dist/index.html');
+  fs.copyFileSync('./site-source/favicon.svg', './dist/favicon.svg');
+  console.log('- Copied favicon.svg to dist/favicon.svg');
 } catch (err) {
-  console.error('Failed to copy index.html:', err.message);
+  console.error('Failed to copy root files:', err.message);
 }
 
 // 2. Copy the entire raw landing folder to dist/landing
